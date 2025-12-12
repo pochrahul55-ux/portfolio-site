@@ -193,3 +193,45 @@ main{
 .instructions a{
      color: #008248;
 }
+.rewards-top-container h2{
+     text-align: center;
+}
+.reward-points{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+.reward-points a{
+     margin: 30px 30px 20px;
+     font-size: 25px;
+     font-weight: 500;
+     text-decoration: none;
+     color: black;
+}
+.reward-points span{
+     color: #9f8600;
+     font-size: 15px;
+}
+.rewards-top-container{
+     background-color: #f1f8f6;
+     padding-top: 25px;
+}
+.rewards-bottom-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     background-color: #d4e9e2;
+     height: 270px;
+}
+.reward-image-container-left img{
+     height: 200px;
+}
+.reward-info-right{
+     width: 347px;
+     margin-left: 70px;
+}
+.rewards-banner-container{
+     margin-top: 100px;
+}
