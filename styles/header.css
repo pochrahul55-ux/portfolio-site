@@ -235,3 +235,36 @@ main{
 .rewards-banner-container{
      margin-top: 100px;
 }
+.extras-caption {
+     display: flex;
+     justify-content: center;
+}
+.extras-caption p{
+     text-align: center;
+     width: 700px;
+}
+.endless-extras{
+     text-align: center;
+}
+.extras-top-container{
+     margin-top: 100px;
+}
+.extras-bottom-container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     text-align: center;
+     width: 100%;
+     max-width: 1200px;
+     margin: 50px auto 150px auto; 
+     gap: 40px;
+     justify-items: center;
+}
+.extras-bottom-container img{
+     height: 110px;
+}
+.fun-freebies-container, .order-pay-ahead-container, .get-faster-container{
+     width: 350px;
+}
+.extras-bottom-container a{
+     color: #008248;
+}
